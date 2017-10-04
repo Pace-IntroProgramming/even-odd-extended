@@ -1,5 +1,5 @@
-// evenOdd takes an input n and determines if it is an even number
-function evenOdd(n) {
+// evenOddExtended takes an input n and determines if it is an even number
+function evenOddExtended(n) {
     // First remind the user what number they entered
     console.log("You entered '" + n + "'.");
 
