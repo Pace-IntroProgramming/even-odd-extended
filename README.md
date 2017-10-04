@@ -54,3 +54,38 @@ Output:
 You entered 3.
 Your number is not a positive number.
 ```
+
+---
+
+Input:
+
+```
+Hi
+```
+
+Output:
+```
+You entered Hi.
+Your input is not an integer.
+```
+
+### Helpful Tips:
+
+To check whether your input is an integer, you will use the built-in parseInt() function.  parseInt turns any number into its nearest integer, and it returns `NaN` if the input is not a number.  
+
+```
+parseInt(3) \\ 3
+parseInt(-3) \\ -3
+parseInt(3.1) \\ 3.1
+parseInt("Hi") \\ NaN
+```
+
+
+A simple way to check for this all in one step is to use `parseInt(n) == n`.  
+
+```
+parseInt(3) == 3 \\ true
+parseInt(-3) == -3 \\ true
+parseInt(3.1) == 3.1 \\ false
+parseInt("Hi") == "Hi" \\ false
+```
