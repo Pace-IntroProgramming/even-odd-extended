@@ -10,6 +10,7 @@
     "eqeqeq": "off",
     "no-console": "off",
     "no-unused-vars": "off",
-    "radix": "off"
+    "radix": "off",
+    "no-multiple-empty-lines": "off"
   }
 }
