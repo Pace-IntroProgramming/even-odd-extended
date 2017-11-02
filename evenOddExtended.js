@@ -4,7 +4,7 @@ function evenOddExtended(n) {
     console.log();
 
     // Next fill in the condition to determine if the input is actually an integer
-    if /* Put condition here */() {
+    if (/* Put condition here */) {
         // If the input is an integer, fill in the condition to determine if it is positive
         if (/* Put condition here */) {
             // If the input is a positive integer, fill in the condition to determine if it is even
