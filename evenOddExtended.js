@@ -3,12 +3,12 @@ function evenOddExtended(n) {
     // First remind the user what number they entered
     console.log();
 
-    // Next determine if the input is actually an integer
-    if () {
-        // If the input is an integer, determine if it is positive
-        if () {
-            // If the input is a positive integer, determine if it is even
-            if () {
+    // Next fill in the condition to determine if the input is actually an integer
+    if /* Put condition here */() {
+        // If the input is an integer, fill in the condition to determine if it is positive
+        if (/* Put condition here */) {
+            // If the input is a positive integer, fill in the condition to determine if it is even
+            if (/* Put condition here */) {
                 console.log();
             } else {
                 console.log();
