@@ -22,6 +22,11 @@ function evenOddExtended(userInput) {
 }
 
 
+//Try out your function here.
+evenOddExtended(4);
+evenOddExtended(5);
+evenOddExtended(3.1);
+evenOddExtended('Hi');
 
 
 
@@ -45,7 +50,7 @@ console.log = function log(d) {
     out.push(d);
 };
 evenOddExtended(2);
-printme('Testing...');
+printme('\n Testing...');
 printme(`\t did you properly return the user input?\t ${out[0] == 'You entered 2.'} `);
 const a = [3.1, -3, 3, 4];
 for (let i = 0; i < a.length; i += 1) {
